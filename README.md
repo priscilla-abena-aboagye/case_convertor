@@ -21,5 +21,6 @@ This project converts PascalCase or camelCase text to snake_case text.
       - It adds an underscore ('_') before converting the character to lowercase
     - If the character is already lowercase, it remains unchanged.
 
-- Duplicate.py
+### Duplicate.py
+- **Decsription**
     - This file uses list comprehension to perform the same conversion. It's more compact and often preferred for simple transformations like this. The list comprehension goes through each character in the string, checks if it's uppercase, and applies the conversion logic.
